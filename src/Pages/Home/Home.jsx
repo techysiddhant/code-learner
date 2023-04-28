@@ -1,18 +1,18 @@
 import { Link } from "react-router-dom";
-import Navbar from "../../Components/Navbar/Navbar";
+// import Navbar from "../../Components/Navbar/Navbar";
 
 const Home = () => {
   return (
     <>
-      <div className="bg-slate-900 h-full lg:h-[94vh]   text-gray-100">
-        <div className="container mx-auto  px-5 sm:px-10 py-5 h-full">
+      <div className="bg-slate-900 h-screen   text-gray-100">
+        <div className="container mx-auto h-full px-5 sm:px-10">
           {/*  Navbar */}
-          <Navbar />
+          {/* <Navbar /> */}
           {/*  Hero */}
-          <section className=" flex flex-col py-40 w-full">
+          <section className=" flex flex-col justify-center items-center h-full  w-full">
             <h1 className="uppercase text-4xl md:text-6xl text-center py-10">
               Code{" "}
-              <span className=" px-4 rounded-sm bg-indigo-600">Learner</span>
+              <span className="px-4 rounded-sm bg-indigo-700">Learner</span>
             </h1>
             <h2 className="uppercase text-6xl md:text-7xl text-center">
               Eat, sleep, code, repeat
