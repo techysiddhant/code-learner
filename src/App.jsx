@@ -5,6 +5,7 @@ import Footer from "./Components/Footer/Footer";
 import Courses from "./Pages/Courses/Courses";
 import Navbar from "./Components/Navbar/Navbar";
 import Course from "./Pages/Course/Course";
+import Tutorial from "./Pages/Tutorial/Tutorial";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/courses/:id" element={<Course />} />
+        <Route path="/courses/tutorial/:courseId" element={<Tutorial />} />
       </Routes>
       <Footer />
     </>

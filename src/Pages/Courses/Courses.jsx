@@ -1,5 +1,5 @@
 import CourseButton from "../../Components/CourseButton/CourseButton";
-
+import { webdevelopment } from "../../data/categories/webdevelopment/webdevelopment.js";
 const Courses = () => {
   return (
     <div className="bg-slate-900 min-h-screen sm:h-screen text-gray-100">
@@ -16,11 +16,14 @@ const Courses = () => {
               </span>{" "}
             </span>
             <div className="py-8 lg:px-32 flex flex-wrap items-center gap-4  justify-center min-h-full">
-              <CourseButton buttonBody={"HTML"} />
-              <CourseButton buttonBody={"CSS"} isNew="true" />
-              <CourseButton buttonBody={"JavaScript"} />
-              <CourseButton buttonBody={"Raect JS"} isNew="true" />
-              <CourseButton buttonBody={"Tailwind CSS"} isNew="true" />
+              {webdevelopment.map((item) => (
+                <CourseButton
+                  key={item.id}
+                  buttonBody={item.title}
+                  isNew={item.isNew}
+                  url={item.url}
+                />
+              ))}
             </div>
           </div>
         </section>

@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
-      <div className="bg-slate-900 h-screen   text-gray-100">
-        <div className="container mx-auto h-full px-5 sm:px-10">
+      <div className="bg-slate-900 h-[calc(100vh-65px)]   text-gray-100">
+        <div className="container mx-auto h-full px-5 sm:px-10 ">
           {/*  Navbar */}
           {/* <Navbar /> */}
           {/*  Hero */}
-          <section className=" flex flex-col justify-center items-center h-full  w-full">
+          <section className=" flex flex-col md:justify-center items-center h-full w-full">
             <h1 className="uppercase text-4xl md:text-6xl text-center py-10">
               Code{" "}
               <span className="px-4 rounded-sm bg-indigo-700">Learner</span>

@@ -1,0 +1,10 @@
+.tutorial {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+@media screen and (max-width: 768px) {
+    .tutorial {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 
-const CourseButton = ({ isNew = false, buttonBody }) => {
+const CourseButton = ({ isNew = false, buttonBody, url }) => {
   return (
     <>
       <Link
-        to="/courses/css"
+        to={`/courses/${url}`}
         className="relative inline-flex min-w-[150px] items-center justify-center px-10 py-4 overflow-hidden font-mono font-medium tracking-tighter text-white bg-gray-800 rounded-lg group"
       >
         <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-indigo-700 rounded-full group-hover:w-56 group-hover:h-56"></span>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <footer className="w-full px-8 sm:px-20 py-4 bg-slate-900 border-t border-gray-200 text-gray-200 md:flex md:items-center md:justify-between  ">
+    <footer className=" w-full px-8 sm:px-20 py-4  bg-slate-900 border-t border-gray-200 text-gray-200 md:flex md:items-center md:justify-between  ">
       <p className="text-sm text-center">
         © {year} - code learner | Developed by{" "}
         <Link className="bg-indigo-600 px-1 rounded-sm">techysiddhant</Link>{" "}
