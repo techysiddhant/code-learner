@@ -15,11 +15,12 @@ const Home = () => {
               <span className="px-4 rounded-sm bg-indigo-700">Learner</span>
             </h1>
             <h2 className="uppercase text-6xl md:text-7xl text-center">
-              Eat, sleep, code, repeat
+              Debugging is my cardio - join the coding gym!
             </h2>
             <p className="text-center py-6 text-xl">
-              Code learner is a platform where you can find free coding
-              resources in a structured way.
+              Are you tired of feeling like a clueless dodo when it comes to
+              coding and programming? Well, put down that coconut and check out
+              our code learner!
             </p>
             <Link to={"/courses"} className="flex justify-center items-center">
               <button className="bg-indigo-600 py-2 px-3 rounded-full hover:bg-indigo-700 transition-all duration-200 ease-in">
