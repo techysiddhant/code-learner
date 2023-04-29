@@ -41,7 +41,7 @@ const Navbar = () => {
           </ul>
           <div className="hidden md:block">
             <Link
-              to={"/"}
+              to={"/courses"}
               className="bg-indigo-700 py-2 px-3 rounded-full hover:bg-indigo-600 transition-all duration-200 ease-in"
             >
               Get Started

@@ -8,6 +8,6 @@ export const webdevelopment = [{
         id: 2,
         title: "CSS",
         url: "css",
-        isNew: true
+        isNew: false
     }
 ]
