@@ -8,9 +8,11 @@ A brief description of what this project does and who it's for
 - [Demo 💻](#demo-)
 - [Tech stack 📚](#tech-stack-)
 - [Getting Started 👩‍💻](#getting-started-)
-- [Let's Start Contributing 🌟](#Lets-start-contributing)
+- [Let's Start Contributing 🌟](#lets-start-contributing-)
 - [License 📝](#license-)
 - [Support ⭐](#support-)
+
+<a name="welcome-to-codelearner"></a>
 
 # Welcome to Code Learner 👋
 
@@ -18,13 +20,27 @@ Welcome to our code learner platform, the ultimate destination for anyone lookin
 
 Code Learner is build by the developers and upcoming developers.
 
+<a name="demo"></a>
+
 ## Demo 💻
 
 You can see the live demo at:
 
+<a name="tech-stack"></a>
+
 ## Tech Stack 📚
 
-**Client:** React, TailwindCSS
+<p>
+  <a href="https://react.dev/">
+    <button style="background:#4338ca; outline:none; border:none; font-size:18px; padding:10px; color:#f1f1f1; border-radius:2px;">React JS</button>
+  </a>
+  <a href="https://tailwindcss.com/">
+    <button style="background:#4338ca; outline:none; border:none; font-size:18px; padding:10px; color:#f1f1f1; border-radius:2px;">Tailwind CSS</button>
+  </a>
+  
+</p>
+
+<a name="getting-started"></a>
 
 ## Getting Started 👩‍💻
 
@@ -33,7 +49,9 @@ You can see the live demo at:
 > - Before getting into, it make you sure you have [yarn](https://yarnpkg.com/cli/install) installed.
 > - Also, make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)
 
-### Let's Start Contributing 🌟
+<a name="lets-start-contributing"></a>
+
+## Let's Start Contributing 🌟
 
 1. [Fork](https://github.com/techysiddhant/code-learner/compare/fork) the project
 2. Clone the project to run on your local machine using the following command
@@ -87,6 +105,8 @@ You can see the live demo at:
     ```
 
 11. Create a [Pull Request](https://github.com/techysiddhant/code-learner/compare)
+
+<a name="license"></a>
 
 ## License 📝
 
