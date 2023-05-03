@@ -110,7 +110,7 @@ You can see the live demo at:
 
 ## License 📝
 
-LinksHub is licensed under the terms of MIT License. check out [LICENSE](https://github.com/techysiddhant/code-learner/blob/main/LICENSE) for details.
+Code Learner is licensed under the terms of MIT License. check out [LICENSE](https://github.com/techysiddhant/code-learner/blob/main/LICENSE) for details.
 
 <a name="support"></a>
 
