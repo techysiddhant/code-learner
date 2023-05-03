@@ -1,5 +1,6 @@
+// courseId = 10101 => CategoryId=1 + TutorialId=01 + CreaterId=01
 export const htmlCourse = [{
-        courseId: 1001,
+        courseId: 10101,
         createrName: "Code With Harry",
         courseName: "HTML",
         lectures: [{
@@ -78,7 +79,7 @@ export const htmlCourse = [{
         ]
     },
     {
-        courseId: 1002,
+        courseId: 10102,
         createrName: "6 Pack Programmer",
         courseName: "HTML",
         lectures: [{
