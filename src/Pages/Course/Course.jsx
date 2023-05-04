@@ -1,10 +1,10 @@
 import { useParams } from "react-router-dom";
-import CourseCard from "../../Components/CourseCard/CourseCard.jsx";
 
-import ContributionLine from "../../components/ContributionLine/ContributionLine.jsx";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { getCoursePage } from "../../redux/coursePageSlice.js";
+import CourseCard from "../../Components/CourseCard/CourseCard.jsx";
+import ContributionLine from "../../components/ContributionLine/ContributionLine.jsx";
 
 const Course = () => {
   const params = useParams();

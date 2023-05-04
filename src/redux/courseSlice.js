@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { createSlice } from "@reduxjs/toolkit";
 import { htmlCourse } from "../data/tutorials/webdevelopment/htmlCourse";
 import { CssCourse } from "../data/tutorials/webdevelopment/CssCourse";
@@ -18,9 +19,9 @@ export const courseSlice = createSlice({
                 console.log(course);
                 state.value = course[0];
             } else if (categoryId === 2) {
-                const course = programmingLanguages(tutorialId, createrId, courseId);
+                // const course = programmingLanguages(tutorialId, createrId, courseId);
             } else if (categoryId === 3) {
-                const course = androidDevelopment(tutorialId, createrId, courseId);
+                // const course = androidDevelopment(tutorialId, createrId, courseId);
             } else {
                 state.value = [];
             }
