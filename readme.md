@@ -47,7 +47,7 @@ You can see the live demo at:
 > ⚠️Prerequisites
 >
 > - Before getting into, it make you sure you have [yarn](https://yarnpkg.com/cli/install) installed.
-> - Also, make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/blob/main/CONTRIBUTING.md)
+> - Also, make sure to follow [CONTRIBUTING guidelines](https://github.com/rupali-codes/LinksHub/blob/main/ontribution.md)
 
 <a name="lets-start-contributing"></a>
 
