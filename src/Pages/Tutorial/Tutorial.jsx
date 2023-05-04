@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import "./tutorial.css";
-import ContributionLine from "../../components/ContributionLine/ContributionLine";
+// import ContributionLine from "../../components/ContributionLine/ContributionLine";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getCourse } from "../../redux/courseSlice";
@@ -61,9 +61,7 @@ const Tutorial = () => {
                 </p>
               </div>
             </div>
-          ) : (
-            <ContributionLine />
-          )}
+          ) : null}
 
           {/* Lectures part */}
           <div className="md:h-screen overflow-y-auto ">
