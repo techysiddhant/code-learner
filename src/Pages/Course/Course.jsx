@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { getCoursePage } from "../../redux/coursePageSlice.js";
 import CourseCard from "../../Components/CourseCard/CourseCard";
-import ContributionLine from "../../components/ContributionLine/ContributionLine";
+// import ContributionLine from "../../components/ContributionLine/ContributionLine";
 
 const Course = () => {
   const params = useParams();
@@ -24,20 +24,18 @@ const Course = () => {
         </h1>
         <div className="flex flex-wrap flex-row items-center justify-center  gap-10">
           {/* CARD */}
-          {course.length > 0 ? (
-            course.map((item) => (
-              <CourseCard
-                key={item.id}
-                profileUrl={item.profileUrl}
-                createrName={item.createrName}
-                desc={item.desc}
-                language={item.language}
-                courseId={item.courseId}
-              />
-            ))
-          ) : (
-            <ContributionLine />
-          )}
+          {course.length > 0
+            ? course.map((item) => (
+                <CourseCard
+                  key={item.id}
+                  profileUrl={item.profileUrl}
+                  createrName={item.createrName}
+                  desc={item.desc}
+                  language={item.language}
+                  courseId={item.courseId}
+                />
+              ))
+            : null}
         </div>
       </div>
     </div>
