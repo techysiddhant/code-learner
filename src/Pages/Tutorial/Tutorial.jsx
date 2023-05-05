@@ -4,6 +4,7 @@ import "./tutorial.css";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getCourse } from "../../redux/courseSlice";
+import ContributionLine from "../../components/ContributionLine/ContributionLine";
 // eslint-disable-next-line react/prop-types
 const LectureBtn = ({ lectureName, setLectureNumber, id }) => {
   return (
@@ -61,7 +62,9 @@ const Tutorial = () => {
                 </p>
               </div>
             </div>
-          ) : null}
+          ) : (
+            <ContributionLine />
+          )}
 
           {/* Lectures part */}
           <div className="md:h-screen overflow-y-auto ">
