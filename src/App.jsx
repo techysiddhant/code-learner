@@ -7,7 +7,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Course from "./Pages/Course/Course";
 import Tutorial from "./Pages/Tutorial/Tutorial";
 import NotFoundPage from "./Components/NotFoundPage/NotFoundPage";
-import ContributionLine from "./components/ContributionLine/ContributionLine";
+import Contribute from "./Components/Contribute/Contribute";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Route path="/courses" element={<Courses />} />
         <Route path="/courses/:id" element={<Course />} />
         <Route path="/courses/tutorial/:courseId" element={<Tutorial />} />
-        <Route path="/contribution" element={<ContributionLine />} />
+        <Route path="/contribution" element={<Contribute />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />
