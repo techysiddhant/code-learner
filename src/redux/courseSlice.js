@@ -17,8 +17,16 @@ export const courseSlice = createSlice({
             // console.log(categoryId, tutorialId, createrId, courseId);
             if (categoryId === 1) {
                 const course = webDevCourse(tutorialId, createrId, courseId);
-                console.log(course);
-                state.value = course[0];
+                // console.log(course);
+                if(course.length > 0){
+
+                    state.value = course[0];
+                    
+                }
+                else{
+
+                    state.value = course;
+                }
             } else if (categoryId === 2) {
                 // const course = programmingLanguages(tutorialId, createrId, courseId);
             } else if (categoryId === 3) {
