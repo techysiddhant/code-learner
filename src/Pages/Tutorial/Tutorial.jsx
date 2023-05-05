@@ -36,7 +36,7 @@ const Tutorial = () => {
   // console.log(lectures);
 
   useEffect(() => {
-    if (lectures.length === 0) {
+    if (!lectures || lectures.length === 0) {
       navigate("/contribution");
     }
   }, [lectures, navigate]);

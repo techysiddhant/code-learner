@@ -3,5 +3,4 @@ export const CssCourse = [{
     createrName: "Code With Harry",
     courseName: "CSS",
     lectures: []
-
 }]
