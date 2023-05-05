@@ -17,7 +17,7 @@ const Course = () => {
     dispatch(getCoursePage(params.id));
   }, [dispatch, params.id]);
   return (
-    <div className="h-screen sm:h-full lg:min-h-screen bg-slate-900 text-gray-100">
+    <div className="h-full sm:h-full lg:min-h-screen bg-slate-900 text-gray-100">
       <div className="container mx-auto px-5 md:px-10 py-12 h-full">
         <h1 className="text-center pb-8 text-4xl font-semibold tracking-wider">
           <span className="uppercase">{params.id}</span> Tutorials

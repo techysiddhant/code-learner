@@ -14,6 +14,7 @@ export const courseSlice = createSlice({
             const tutorialId = action.payload.slice(1, 3);
             const createrId = action.payload.slice(3, 5);
             const courseId = +action.payload;
+            // console.log(categoryId, tutorialId, createrId, courseId);
             if (categoryId === 1) {
                 const course = webDevCourse(tutorialId, createrId, courseId);
                 console.log(course);
