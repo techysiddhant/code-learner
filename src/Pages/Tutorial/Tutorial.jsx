@@ -1,10 +1,9 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import "./tutorial.css";
 // import ContributionLine from "../../components/ContributionLine/ContributionLine";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getCourse } from "../../redux/courseSlice";
-import ContributionLine from "../../components/ContributionLine/ContributionLine";
 // eslint-disable-next-line react/prop-types
 const LectureBtn = ({ lectureName, setLectureNumber, id }) => {
   return (
@@ -20,19 +19,27 @@ const LectureBtn = ({ lectureName, setLectureNumber, id }) => {
 };
 const Tutorial = () => {
   const params = useParams();
+  const navigate = useNavigate();
   const [lectureNumber, setLectureNumber] = useState(0);
   // const tutorialNumber = +params.courseId.toString().slice(-1);
   // console.log(tutorialNumber);
   const dispatch = useDispatch();
+  dispatch(getCourse(params.courseId));
   const { lectures } = useSelector((state) => state.course.value);
+  // if (lectures.length === 0) {
+  //   navigate("/contribution");
+  // }
   // const { lectures } = value[0];
   // console.log(value);
   // console.log(params.courseId);
   // const { lectures } = htmlCourse[tutorialNumber - 1];
   // console.log(lectures);
+
   useEffect(() => {
-    dispatch(getCourse(params.courseId));
-  }, [dispatch, params.courseId]);
+    if (lectures.length === 0) {
+      navigate("/contribution");
+    }
+  }, [lectures, navigate]);
   return (
     <div className="max-h-full bg-slate-900 text-gray-100">
       <div className="px-5 py-2 ">
@@ -40,7 +47,7 @@ const Tutorial = () => {
 
         <div className=" tutorial gap-6">
           {/* Video part */}
-          {lectures ? (
+          {lectures && (
             <div>
               <div className="relative pb-[56.25%] pt-[25px] h-0 w-full">
                 <iframe
@@ -62,8 +69,6 @@ const Tutorial = () => {
                 </p>
               </div>
             </div>
-          ) : (
-            <ContributionLine />
           )}
 
           {/* Lectures part */}
