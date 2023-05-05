@@ -1,6 +1,6 @@
 # Code Learner
 
-A brief description of what this project does and who it's for
+Code-Learner is a developer-built platform offering free, structured courses on coding and programming. Maintained by a community of developers, the platform provides learners with access to high-quality courses designed to enhance their coding skills and knowledge.
 
 ## Table of Contents
 
