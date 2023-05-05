@@ -51,7 +51,7 @@ const Tutorial = () => {
                   allowFullScreen="1"
                 ></iframe>
               </div>
-              <div className="h-24 overflow-y-auto px-5 py-5">
+              <div className="min-h-[200px] overflow-y-auto px-5 py-5 border drop-shadow-lg rounded-sm my-2">
                 <h1 className="bg-indigo-700 px-2 py-2 text-xl italic">
                   Lecture: #{lectureNumber + 1}{" "}
                   {lectures[lectureNumber].lectureName}
@@ -65,14 +65,15 @@ const Tutorial = () => {
 
           {/* Lectures part */}
           <div className="md:h-screen overflow-y-auto ">
-            {lectures.map((item) => (
-              <LectureBtn
-                key={item.lectureId}
-                lectureName={item.lectureName}
-                setLectureNumber={setLectureNumber}
-                id={item.lectureId}
-              />
-            ))}
+            {lectures &&
+              lectures.map((item) => (
+                <LectureBtn
+                  key={item.lectureId}
+                  lectureName={item.lectureName}
+                  setLectureNumber={setLectureNumber}
+                  id={item.lectureId}
+                />
+              ))}
           </div>
         </div>
       </div>
