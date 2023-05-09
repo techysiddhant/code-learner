@@ -1,4 +1,4 @@
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import "./tutorial.css";
 // import ContributionLine from "../../components/ContributionLine/ContributionLine";
 import { useEffect, useState } from "react";
@@ -64,6 +64,16 @@ const Tutorial = () => {
                   Lecture: #{lectureNumber + 1}{" "}
                   {lectures[lectureNumber].lectureName}
                 </h1>
+
+                {lectures[lectureNumber].lectureLink && (
+                  <Link
+                    to={lectures[lectureNumber].lectureLink}
+                    target="_blank"
+                    className="italic text-red-500 my-2 block"
+                  >
+                    source code & all important links
+                  </Link>
+                )}
                 <p className="py-2">
                   {lectures[lectureNumber].lectureDescription}
                 </p>
