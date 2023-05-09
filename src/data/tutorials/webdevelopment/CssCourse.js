@@ -240,7 +240,127 @@ export const CssCourse = [{
         
     ]
 },
+{
+    courseId: 10202,
+    createrName:"6 Pack Programmer",
+    courseName: "CSS",
+    lectures:[
+        {
+            lectureId: 0,
+            lectureName: "CSS Fundamentals: Get Started with CSS Syntax ",
+            lectureUrl: "https://www.youtube.com/embed/-yns4J_ax4A?list=PLt5mNkGuWcuVa4GNEsDbH5L6ONaIMsbMa",
+            lectureDescription: "",
+            lectureLink : ""
+        },
+        {
+            lectureId: 1,
+            lectureName: "A Deep Dive into the Building Blocks of CSS ",
+            lectureUrl: "https://www.youtube.com/embed/NZ2gJ9ga3u4?list=PLt5mNkGuWcuVa4GNEsDbH5L6ONaIMsbMa",
+            lectureDescription: "",
+            lectureLink : ""
+        },
+        {
+            lectureId: 2,
+            lectureName: "Unlock the Power of Styling with CSS Properties ",
+            lectureUrl: "https://www.youtube.com/embed/ARwc2BvBv9E?list=PLt5mNkGuWcuVa4GNEsDbH5L6ONaIMsbMa",
+            lectureDescription: "",
+            lectureLink : ""
+        },
+        {
+            lectureId: 3,
+            lectureName: "Relative and Absolute Units for Perfect Styling ",
+            lectureUrl: "https://www.youtube.com/embed/KmoyAIJQlgs?list=PLt5mNkGuWcuVa4GNEsDbH5L6ONaIMsbMa",
+            lectureDescription: "",
+            lectureLink : ""
+        },
+        {
+            lectureId: 4,
+            lectureName:"Master CSS Box Model for Pro-Level Design",
+            lectureUrl: "https://www.youtube.com/embed/fmxApuj447g?list=PLt5mNkGuWcuVa4GNEsDbH5L6ONaIMsbMa",
+            lectureDescription: "",
+            lectureLink : ""
+        },
+        {
+            lectureId: 5,
+            lectureName: "Master CSS Layouts with Exercise 01",
+            lectureUrl: "https://www.youtube.com/embed/VxiXmr7kpm4?list=PLt5mNkGuWcuVa4GNEsDbH5L6ONaIMsbMa",
+            lectureDescription: "",
+            lectureLink : ""
+
+        },
+        {
+            lectureId: 6,
+            lectureName: "Harness the Power of Float, Display, and Position",
+            lectureUrl: "https://www.youtube.com/embed/5K-EfvhmOsY?list=PLt5mNkGuWcuVa4GNEsDbH5L6ONaIMsbMa",
+            lectureDescription: "",
+            lectureLink : ""
+
+        },
+        {
+            lectureId: 7,
+            lectureName: "Transform Your Web Forms with CSS Magic",
+            lectureUrl: "https://www.youtube.com/embed/XRxNZdQEoc8?list=PLt5mNkGuWcuVa4GNEsDbH5L6ONaIMsbMa",
+            lectureDescription: "",
+            lectureLink : ""
+        },
+        {
+            lectureId: 8,
+            lectureName: "Debug Like a Pro: Mastering the Chrome Developer Tools",
+            lectureUrl: "https://www.youtube.com/embed/epD_BeuTD9s?list=PLt5mNkGuWcuVa4GNEsDbH5L6ONaIMsbMa",
+            lectureDescription: "",
+            lectureLink : ""
+        },
+        {
+            lectureId: 9,
+            lectureName: "Project 01 - Building Your First Website From Scratch",
+            lectureUrl: "https://www.youtube.com/embed/6hgzsZKpqzQ?list=PLt5mNkGuWcuVa4GNEsDbH5L6ONaIMsbMa",
+            lectureDescription: "",
+            lectureLink : "https://i.ibb.co/HtfMdJS/bg.webp"
+        },
+        {
+            lectureId: 10,
+            lectureName: "Master Responsiveness: Create Mobile-Friendly Websites",
+            lectureUrl: "https://www.youtube.com/embed/qm5WAxpnXZU?list=PLt5mNkGuWcuVa4GNEsDbH5L6ONaIMsbMa",
+            lectureDescription: "",
+            lectureLink : ""
+        },
+        {
+            lectureId: 11,
+            lectureName: "Unleash the Power of Flexbox: CSS Layout and Alignment",
+            lectureUrl: "https://www.youtube.com/embed/uevnEjGf4FE?list=PLt5mNkGuWcuVa4GNEsDbH5L6ONaIMsbMa",
+            lectureDescription: "",
+            lectureLink : ""
+        },
+        {
+            lectureId: 12,
+            lectureName: "Build an E-Commerce Site with Flexbox",
+            lectureUrl: "https://www.youtube.com/embed/_K1i3B_nnAw?list=PLt5mNkGuWcuVa4GNEsDbH5L6ONaIMsbMa",
+            lectureDescription: "",
+            lectureLink : "https://github.com/meabhisingh/flexbox-tutorial"
+        },
+        {
+            lectureId: 13,
+            lectureName: "CSS Grid: Layout Design with CSS",
+            lectureUrl: "https://www.youtube.com/embed/dRTgSI5vKEo?list=PLt5mNkGuWcuVa4GNEsDbH5L6ONaIMsbMa",
+            lectureDescription: "",
+            lectureLink : ""
+        },
+        {
+            lectureId: 14,
+            lectureName: "Dynamic Design: CSS Transition, Transform, Animation",
+            lectureUrl: "https://www.youtube.com/embed/QXhlfWhmFPI?list=PLt5mNkGuWcuVa4GNEsDbH5L6ONaIMsbMa",
+            lectureDescription: "",
+            lectureLink: ""
+        },
+        {
+            lectureId: 15,
+            lectureName: "CSS Mastery: Pseudo Elements & Pseudo Classes",
+            lectureUrl: "https://www.youtube.com/embed/-XYS2-G3HQ4?list=PLt5mNkGuWcuVa4GNEsDbH5L6ONaIMsbMa",
+            lectureDescription:"",
+            lectureLink : ""
+        }
+    ]
+}
 
 
 ]
-
